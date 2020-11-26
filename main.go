@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"main/src/one/two"
+)
+
 func main() {
-	hello()
+	fmt.Println(two.Two())
 }
